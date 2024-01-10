@@ -1,6 +1,6 @@
 {
   "mappings": {
     "wp-content/themes/ship-of-theseus": "./wp/themes/ship-of-theseus",
-    "wp-content/plugins": "./vendor/wpackagist-plugin"
+    "wp-content/plugins": "./wp/plugins"
   }
 }

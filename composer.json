@@ -1,0 +1,27 @@
+{
+  "name": "nickzou/ship-of-theseus",
+  "type": "wordpress-plugin",
+  "require": {
+    "wpengine/advanced-custom-fields-pro": "*",
+    "wpackagist-plugin/contact-form-7": "~5.1",
+    "eftec/bladeone": "4.9"
+  },
+  "repositories": [
+    { "type": "composer", "url":"https://wpackagist.org" },
+    {
+      "type": "composer",
+      "url": "https://connect.advancedcustomfields.com"
+    }
+  ],
+  "autoload": { "psr-0": { "ShipOfTheseus": "src/" } },
+  "extra": {
+    "installer-paths": {
+        "wp/plugins/{$name}/": ["type:wordpress-plugin"]
+    }
+},
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

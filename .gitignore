@@ -1,2 +1,7 @@
+#folders
 node_modules
 vendor
+wp/plugins
+
+#files
+auth.json
