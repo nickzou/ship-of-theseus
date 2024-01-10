@@ -4,7 +4,9 @@
   "description": "A todo list application built with various frontends and backends.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wp-env": "wp-env start -- --update",
+    "wp-env:stop": "wp-env stop"
   },
   "repository": {
     "type": "git",
