@@ -1,0 +1,22 @@
+{
+  "name": "ship-of-theseus",
+  "version": "1.0.0",
+  "description": "A todo list application built with various frontends and backends.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nickzou/ship-of-theseus.git"
+  },
+  "author": "Nick Zou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickzou/ship-of-theseus/issues"
+  },
+  "homepage": "https://github.com/nickzou/ship-of-theseus#readme",
+  "dependencies": {
+    "@wordpress/env": "^9.0.0"
+  }
+}
