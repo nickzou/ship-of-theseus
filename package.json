@@ -22,7 +22,6 @@
     "@wordpress/env": "^9.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "unocss": "^0.58.3"
+    "typescript": "^5.3.3"
   }
 }
